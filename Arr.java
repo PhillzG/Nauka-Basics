@@ -11,7 +11,7 @@ public class Arr {
         cars[2] = "Tesla";
         
         for(int i =0; i<cars.length;i++){
-            System.out.println(cars[i]);
+            System.out.println(cars[i]);                                    //wypisuje tablice
         }
 
     }
