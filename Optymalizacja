@@ -1,0 +1,9 @@
+( ( a!=b ) | | ! ( true ) ) && ( ( ( a=b )==a ) && true )
+(a != b) jest prawdziwe, gdy a i b są różne.
+! (true) zawsze jest fałszywe.
+((a=b) == a) jest zawsze prawdziwe, gdy a zostaje przypisane do b, a następnie porównane z samym sobą (chociaż to przypisanie wpływa na wartość a).
+&& true jest neutralne dla operacji logicznej i nie wpływa na wynik.
+
+
+Więc, podane wyrażenie można uporścić do '(a!=b)|| false'
+A jako, że false nie wpływa na wartość, można uprościć do 'a!=b'
